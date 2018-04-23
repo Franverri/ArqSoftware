@@ -5,11 +5,13 @@ La idea no es rehacerlo entero porque llevaría demasiado tiempo y sería muy ri
 La gran duda ahora es cómo encarar estos nuevos servicios. ¿Qué tecnologías conviene usar? ¿Qué ventajas y desventajas tiene cada una? Por esto, les pidieron que analicen algunas alternativas de tecnologías y configuraciones:
 
 Obligatorias:
+
 	● app flask + gunicorn web server (1 worker)
 	● app node/express (1 worker, sin usar el modo cluster)
 	● N instancias app (alguna de las anteriores) con load balancer
 
 Opcionales:
+
 	● app flask + gunicorn web server (múltiples workers)
 	● app node/express en modo cluster, con múltiples subprocesos
 	● N instancias de la app, cada una con varios workers, y un load balancer delante
