@@ -1,0 +1,28 @@
+config:
+  environments:
+    node_simple:
+      target: "http://localhost:5555/node"
+      phases:
+        - duration: 10
+          arrivalRate: 15
+        - duration: 10
+          arrivalRate: 30
+    gunicorn_simple:
+      target: "http://localhost:5555/gunicorn"
+      phases:
+        - duration: 10
+          arrivalRate: 15
+        - duration: 10
+          arrivalRate: 30
+    node_multiple:
+      target: "http://localhost:5555/node_replicated"
+      phases:
+        - duration: 10
+          arrivalRate: 15
+        - duration: 10
+          arrivalRate: 30    
+scenarios:
+  - name: "Testeo endpoint liviano"
+    flow:
+      - get:
+          url: "/sleep"
