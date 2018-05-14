@@ -22,7 +22,7 @@ config:
         - duration: 10
           arrivalRate: 30    
 scenarios:
-  - name: "Testeo endpoint lento y pesado"
+  - name: "Testeo endpoint liviano y rapido"
     flow:
       - get:
-          url: "/cycle"
+          url: "/"
