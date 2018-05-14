@@ -10,7 +10,7 @@ def root():
 
 @app.route("/sleep")
 def sleep():
-    time.sleep(5)
+    time.sleep(0.1)
     return 'Python Sleep Test'
 
 @app.route("/cycle")

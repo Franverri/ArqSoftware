@@ -1,0 +1,283 @@
+LIVIANO Y RAPIDO:
+
+Started phase 0, duration: 10s @ 07:42:19(-0300) 2018-05-14
+Report @ 07:42:29(-0300) 2018-05-14
+  Scenarios launched:  149
+  Scenarios completed: 149
+  Requests completed:  149
+  RPS sent: 15.02
+  Request latency:
+    min: 1.5
+    max: 8.4
+    median: 2.2
+    p95: 3.9
+    p99: 7.5
+  Codes:
+    200: 149
+
+Started phase 1, duration: 10s @ 07:42:29(-0300) 2018-05-14
+Report @ 07:42:39(-0300) 2018-05-14
+  Scenarios launched:  300
+  Scenarios completed: 300
+  Requests completed:  300
+  RPS sent: 29.94
+  Request latency:
+    min: 1.3
+    max: 16.9
+    median: 1.6
+    p95: 2.3
+    p99: 3.7
+  Codes:
+    200: 300
+
+Report @ 07:42:40(-0300) 2018-05-14
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  RPS sent: 2
+  Request latency:
+    min: 1.5
+    max: 1.5
+    median: 1.5
+    p95: NaN
+    p99: NaN
+  Codes:
+    200: 1
+
+All virtual users finished
+Summary report @ 07:42:40(-0300) 2018-05-14
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  RPS sent: 21.99
+  Request latency:
+    min: 1.3
+    max: 16.9
+    median: 1.7
+    p95: 3
+    p99: 5.4
+  Scenario counts:
+    Testeo endpoint liviano y rapido: 450 (100%)
+  Codes:
+    200: 450
+
+
+
+
+
+
+
+LIVIANO Y PESADO:
+
+Started phase 0, duration: 10s @ 07:46:10(-0300) 2018-05-14
+Report @ 07:46:20(-0300) 2018-05-14
+  Scenarios launched:  149
+  Scenarios completed: 98
+  Requests completed:  98
+  RPS sent: 15.02
+  Request latency:
+    min: 109.9
+    max: 3375.2
+    median: 1745.7
+    p95: 3228
+    p99: 3359.1
+  Codes:
+    200: 98
+
+Started phase 1, duration: 10s @ 07:46:20(-0300) 2018-05-14
+Report @ 07:46:30(-0300) 2018-05-14
+  Scenarios launched:  300
+  Scenarios completed: 100
+  Requests completed:  100
+  RPS sent: 29.97
+  Request latency:
+    min: 3406.4
+    max: 8308.9
+    median: 5062.9
+    p95: 8008.5
+    p99: 8274.9
+  Codes:
+    200: 100
+
+Report @ 07:46:40(-0300) 2018-05-14
+  Scenarios launched:  1
+  Scenarios completed: 100
+  Requests completed:  100
+  RPS sent: 0.1
+  Request latency:
+    min: 8380
+    max: 14993.4
+    median: 11679
+    p95: 14692.7
+    p99: 14960.1
+  Codes:
+    200: 100
+
+Report @ 07:46:50(-0300) 2018-05-14
+  Scenarios launched:  0
+  Scenarios completed: 100
+  Requests completed:  100
+  RPS sent: NaN
+  Request latency:
+    min: 15061
+    max: 21591.7
+    median: 18360
+    p95: 21297.4
+    p99: 21561.1
+  Codes:
+    200: 100
+
+Report @ 07:46:56(-0300) 2018-05-14
+  Scenarios launched:  0
+  Scenarios completed: 52
+  Requests completed:  52
+  RPS sent: NaN
+  Request latency:
+    min: 20077.3
+    max: 25242.2
+    median: 23811
+    p95: 25104.9
+    p99: 25240.9
+  Codes:
+    200: 52
+
+All virtual users finished
+Summary report @ 07:46:56(-0300) 2018-05-14
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  RPS sent: 9.9
+  Request latency:
+    min: 109.9
+    max: 25242.2
+    median: 10144.5
+    p95: 24044.8
+    p99: 24978.9
+  Scenario counts:
+    Testeo endpoint liviano y pesado: 450 (100%)
+  Codes:
+    200: 450
+
+
+
+LENTO Y PESADO:
+
+Started phase 0, duration: 10s @ 08:06:27(-0300) 2018-05-14
+Report @ 08:06:37(-0300) 2018-05-14
+  Scenarios launched:  149
+  Scenarios completed: 72
+  Requests completed:  72
+  RPS sent: 15.02
+  Request latency:
+    min: 162
+    max: 5092.1
+    median: 2642.7
+    p95: 4881.9
+    p99: 5077.6
+  Codes:
+    200: 72
+
+Started phase 1, duration: 10s @ 08:06:37(-0300) 2018-05-14
+Report @ 08:06:47(-0300) 2018-05-14
+  Scenarios launched:  300
+  Scenarios completed: 73
+  Requests completed:  73
+  RPS sent: 30
+  Request latency:
+    min: 5162.5
+    max: 10271.7
+    median: 7676.6
+    p95: 10019.5
+    p99: 10253.7
+  Codes:
+    200: 73
+
+Report @ 08:06:57(-0300) 2018-05-14
+  Scenarios launched:  1
+  Scenarios completed: 76
+  Requests completed:  76
+  RPS sent: 0.1
+  Request latency:
+    min: 10343.7
+    max: 17572.5
+    median: 13899.4
+    p95: 17253.8
+    p99: 17547.3
+  Codes:
+    200: 76
+
+Report @ 08:07:07(-0300) 2018-05-14
+  Scenarios launched:  0
+  Scenarios completed: 76
+  Requests completed:  76
+  RPS sent: NaN
+  Request latency:
+    min: 17377.1
+    max: 23770.7
+    median: 20071.9
+    p95: 22587.8
+    p99: 23677.8
+  Codes:
+    200: 76
+
+Report @ 08:07:17(-0300) 2018-05-14
+  Scenarios launched:  0
+  Scenarios completed: 75
+  Requests completed:  75
+  RPS sent: NaN
+  Request latency:
+    min: 20999
+    max: 32731.1
+    median: 26731
+    p95: 32414.4
+    p99: 32706.5
+  Codes:
+    200: 75
+
+Report @ 08:07:27(-0300) 2018-05-14
+  Scenarios launched:  0
+  Scenarios completed: 76
+  Requests completed:  76
+  RPS sent: NaN
+  Request latency:
+    min: 32830.5
+    max: 45653.9
+    median: 40654.4
+    p95: 43794.9
+    p99: 45263.2
+  Codes:
+    200: 76
+
+Report @ 08:07:28(-0300) 2018-05-14
+  Scenarios launched:  0
+  Scenarios completed: 2
+  Requests completed:  2
+  RPS sent: NaN
+  Request latency:
+    min: 44383
+    max: 45884.3
+    median: 45133.7
+    p95: NaN
+    p99: NaN
+  Codes:
+    200: 2
+
+All virtual users finished
+Summary report @ 08:07:28(-0300) 2018-05-14
+  Scenarios launched:  450
+  Scenarios completed: 450
+  Requests completed:  450
+  RPS sent: 7.44
+  Request latency:
+    min: 162
+    max: 45884.3
+    median: 17874.9
+    p95: 42293.8
+    p99: 43921.6
+  Scenario counts:
+    Testeo endpoint lento y pesado: 450 (100%)
+  Codes:
+    200: 450
+
+
+

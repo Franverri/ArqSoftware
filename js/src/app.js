@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/sleep', (req, res) => {
-  sleep(5000, function() {
+  sleep(100, function() {
      res.send("Node Sleep Test");
   })
 });
