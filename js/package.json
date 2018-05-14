@@ -1,0 +1,17 @@
+{
+  "name": "tp-arquitectura",
+  "version": "1.0.0",
+  "description": "Webservice en nodejs con express al que se le medira la performance",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js $1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toblich/tp-arquitectura.git"
+  }
+}
